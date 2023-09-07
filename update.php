@@ -11,7 +11,7 @@ $thana = $_GET['th'];
 $service = $_GET['s'];
 $category = $_GET['c'];
 $mobile = $_GET['m'];
-$description = $_GET['z'];
+$description = $_GET['d'];
 
 if(mysqli_connect_errno())
     echo "could not connect".mysqli_connect_error();
